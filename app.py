@@ -311,7 +311,7 @@ def load_model():
 
         if not os.path.exists(model_path):
             st.warning(f"⚠️ File '{model_path}' not found. Downloading from Drive...")
-            drive_url = "https://drive.google.com/file/d/117DDsMO0mle9IAFz-FO45PdTiXotNR5X/view?usp=drive_link"  # Your Drive link
+            drive_url = "https://drive.google.com/file/d/1f43XmMF1-Y8kpAd1-EddFVW4CMe-IrdZ/view?usp=drive_link"  # Your Drive link
             download_model_from_drive(drive_url, model_path)
 
         # Load the model
